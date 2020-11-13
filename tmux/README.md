@@ -1,1 +1,1 @@
-* For tmux 2.x
+For tmux 2.x
