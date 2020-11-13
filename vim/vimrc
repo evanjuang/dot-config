@@ -1,0 +1,43 @@
+" ==================== VIM PLUG ==================
+call plug#begin()
+
+" airline (powerline)
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" enhanced highlight
+Plug 'octol/vim-cpp-enhanced-highlight'
+
+" colorscheme
+Plug 'morhetz/gruvbox'
+
+" git
+Plug 'airblade/vim-gitgutter'
+
+call plug#end()
+
+
+" ================ Visualization ====================
+syntax on
+set background=dark
+colorscheme gruvbox
+set t_Co=256
+
+
+" ================ Indentation ======================
+set autoindent
+set smartindent
+set shiftwidth=4
+set tabstop=4
+set smarttab
+set expandtab
+
+
+" ================ Number column ====================
+" numbers
+set number
+
+
+" ================ Misc =============================
+" highlight matching braces
+set showmatch
