@@ -6,19 +6,16 @@
     "workbench.colorTheme": "(Actual) Obsidian",
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile",
-    "vsicons.dontShowNewVersionMessage": true,
-    "extensions.ignoreRecommendations": true,
     "terminal.integrated.fontSize": 18,
     "terminal.integrated.fontWeight": 600,
-    "git.ignoreLegacyWarning": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "extensions.ignoreRecommendations": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "git.ignoreLegacyWarning": true,
     "python.formatting.provider": "yapf",
-    "python.linting.pylintEnabled": true,
-    "python.linting.pycodestyleEnabled": true,
-    "python.linting.pycodestyleArgs": [
-        "--ignore=E501"
-    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
     "python.testing.unittestEnabled": false
 }
