@@ -1,0 +1,24 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Source Code Pro', Consolas",
+    "editor.lineHeight": 24,
+    "editor.renderWhitespace": "all",
+    "workbench.colorTheme": "(Actual) Obsidian",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "newUntitledFile",
+    "vsicons.dontShowNewVersionMessage": true,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontWeight": 600,
+    "git.ignoreLegacyWarning": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "python.formatting.provider": "yapf",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--ignore=E501"
+    ],
+    "python.testing.unittestEnabled": false
+}
