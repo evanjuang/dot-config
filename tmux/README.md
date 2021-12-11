@@ -8,3 +8,7 @@ tmux source-file ~/.tmux.conf
 ```shell
 alias tmux='tmux -2'
 ```
+* reload config
+```
+tmux source-file ~/.tmux.conf
+```
