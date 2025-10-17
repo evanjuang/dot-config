@@ -25,5 +25,7 @@
     "python.languageServer": "Pylance",
     "python.analysis.typeCheckingMode": "standard",
     "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.callArgumentNames": "partial",
+    "python.analysis.inlayHints.functionReturnTypes": true,
     "python.analysis.fixAll": ["source.unusedImports"],
 }
